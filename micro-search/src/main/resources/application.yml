@@ -1,21 +1,21 @@
-#server:
-#  port: 9095
-#spring:
-#  application:
-#    name: API-SEARCH
-#  cloud:
-#    nacos:
-#      discovery:
-#        server-addr: localhost:8848
-#      config:
-#        server-addr: localhost:8848
-#        file-extension: yaml
-#        group: DEFAULT_GROUP
-#
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: guest
-#    password: guest
-#    virtual-host: /
+server:
+  port: 9095
+spring:
+  application:
+    name: API-SEARCH
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+      config:
+        server-addr: localhost:8848
+        file-extension: yaml
+        group: DEFAULT_GROUP
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
 

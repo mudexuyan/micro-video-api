@@ -15,6 +15,7 @@
         <module>micro-gateway</module>
         <module>micro-sms</module>
         <module>micro-search</module>
+        <module>micro-bullet</module>
     </modules>
 
     <!--继承springboot父项目-->

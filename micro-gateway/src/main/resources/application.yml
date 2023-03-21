@@ -1,7 +1,5 @@
 server:
   port: 9998
-
-
 spring:
   cloud:
     nacos:

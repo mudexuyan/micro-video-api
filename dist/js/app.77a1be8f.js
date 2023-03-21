@@ -357,7 +357,7 @@
         a.render = o;
         var i = a, c = (r("d3b7"), r("6c02")), u = (r("b0c0"), Object(n["T"])("data-v-6efe1080"));
         Object(n["C"])("data-v-6efe1080");
-        var s = {class: "layout-container"}, d = Object(n["i"])(" 首页 "), l = Object(n["i"])(" 分类 "),
+        var s = {class: "layout-container"}, d = Object(n["i"])(" 首页 "),
             f = Object(n["i"])(" 我的 ");
         Object(n["A"])();
         var g = u((function (e, t, r, o, a, i) {

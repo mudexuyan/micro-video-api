@@ -13,15 +13,18 @@ public class ImageUtils {
 
     static {
         photos = new ArrayList<>();
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HFW4.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HiYF.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HPFU.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HEl9.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HASJ.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HZO1.jpg");
-        photos.add("https://z3.ax1x.com/2021/07/19/W8HVyR.jpg");
-        photos.add(" https://z3.ax1x.com/2021/07/19/W8HpwV.jpg");
-        photos.add(" https://z3.ax1x.com/2021/07/19/W8H9oT.jpg");
+        photos.add("https://i.328888.xyz/2023/03/14/95naE.th.png");
+        photos.add("https://i.328888.xyz/2023/03/14/95UeQ.th.png");
+        photos.add("https://i.328888.xyz/2023/03/14/95W0C.th.png");
+        photos.add("https://i.328888.xyz/2023/03/14/95kBP.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/950JX.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/95lDt.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/95wrJ.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/9525c.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/95OiA.th.jpeg");
+        photos.add("https://i.328888.xyz/2023/03/14/95bOo.th.jpeg");
+
+
 
     }
 

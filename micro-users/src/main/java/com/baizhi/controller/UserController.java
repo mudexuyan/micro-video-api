@@ -227,13 +227,13 @@ public class UserController {
     //category_id 代表当前视频分类id
     //request:    当前请求上下文中存在用户信息
     @RequiredToken
-    public Video publishVideos(MultipartFile file, Video video, Integer category_id, HttpServletRequest request) throws IOException {
+    public Video publishVideos(MultipartFile file, Video video, HttpServletRequest request) throws IOException {
 
         //1.获取文件原始名称
         String originalFilename = file.getOriginalFilename();
         log.info("接收文件名称: {}", originalFilename);
         log.info("接收到视频信息: " + new ObjectMapper().writeValueAsString(video));
-        log.info("类别id: {}", category_id);
+//        log.info("类别id: {}", category_id);
         log.info("文件大小为: {}", file.getSize());
 
         //2.获取文件后缀 mp4 avi ....
@@ -251,14 +251,14 @@ public class UserController {
 
         //阿里云oss截取视频中某一帧作为封面
 //        String cover = url + "?x-oss-process=video/snapshot,t_2000,f_jpg,w_0,h_0,m_fast,ar_auto";
-        String cover = url + "?vframe/jpg/offset/15";
+        String cover = url + "?vframe/jpg/offset/1";
 
-        log.info("阿里云oss根据url截取视频封面: {}", cover);
+        log.info("七牛oss根据url截取视频封面: {}", cover);
 
         //6.设置视频信息
         video.setCover(cover);//设置视频封面
         video.setLink(url);//设置视频地址
-        video.setCategoryId(category_id);//设置类别id
+        video.setCategoryId(100);//设置类别id
 
         //获取用户信息
         User user = (User) request.getAttribute("user");

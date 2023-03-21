@@ -18,8 +18,8 @@ spring:
     password: 123456
   servlet:
     multipart:
-      max-file-size: 30MB
-      max-request-size: 30MB
+      max-file-size: 100MB
+      max-request-size: 100MB
 
 
 mybatis:
@@ -31,17 +31,17 @@ logging:
     com:
       baizhi:
         dao: debug
-qiniu:
-  key:
-    access: JHp93XBDkXcatVjjEpOpKLsfZSMVWobZtSL1AAzk
-    secret: Npfi1hfmKHP9uX9Blxgu1o6wmbk2Sc0QYZ1924tw
-  bucket:
-    header:
-      name: ustcheader
-      url: http://rjgrxz94l.bkt.clouddn.com
-    share:
-      name: ustcshare
-      url: http://rjgrxz94l.bkt.clouddn.com
+#qiniu:
+#  key:
+#    access: JHp93XBDkXcatVjjEpOpKLsfZSMVWobZtSL1AAzk
+#    secret: Npfi1hfmKHP9uX9Blxgu1o6wmbk2Sc0QYZ1924tw
+#  bucket:
+#    header:
+#      name: ustcheader
+#      url: http://rjgrxz94l.bkt.clouddn.com
+#    share:
+#      name: ustcshare
+#      url: http://rjgrxz94l.bkt.clouddn.com
 
 #设置openfeign调用超时
 feign:

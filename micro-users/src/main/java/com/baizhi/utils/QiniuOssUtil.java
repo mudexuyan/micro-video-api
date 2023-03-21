@@ -17,11 +17,15 @@ public class QiniuOssUtil {
 
     private static String accessKey = "JHp93XBDkXcatVjjEpOpKLsfZSMVWobZtSL1AAzk";
     private static String secretKey = "Npfi1hfmKHP9uX9Blxgu1o6wmbk2Sc0QYZ1924tw";
-    private static String bucket = "micro-service-video";
+    private static String bucket = "micro-video-3";
 
      // "http://rjgrxz94l.bkt.clouddn.com/videos/test3.mp4?vframe/jpg/offset/1";
 
-    private static String url = "http://rjgrxz94l.bkt.clouddn.com";
+//    private static String url = "http://rjgrxz94l.bkt.clouddn.com";
+//    private static String url = "http://rpjnwu1kx.hd-bkt.clouddn.com";
+
+    private static String url = "http://rri7sgufa.hd-bkt.clouddn.com";
+
 
 
     public static String upload(File file, String path, String fileName) throws FileNotFoundException {

@@ -11,16 +11,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 @RestController
 public class ConfigurationController {
-    @Value("${user.id}")
-    private String id;
-    @Value("${user.name}")
-    private String name;
-    @Value("${user.age}")
-    private String age;
-
-    @GetMapping("/search/get")
-    public String providerTest() {
-        return "我是provider，已成功获取nacos配置中心的数据：(id:" + id + ",name:" + name + ",age:" + age + ")";
-
-    }
+//    @Value("${user.id}")
+//    private String id;
+//    @Value("${user.name}")
+//    private String name;
+//    @Value("${user.age}")
+//    private String age;
+//
+//    @GetMapping("/search/get")
+//    public String providerTest() {
+//        return "我是provider，已成功获取nacos配置中心的数据：(id:" + id + ",name:" + name + ",age:" + age + ")";
+//
+//    }
 }
